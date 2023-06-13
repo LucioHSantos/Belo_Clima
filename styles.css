@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1290x800/?weather");
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    width: 100%;
+    height: 5rem;
+    background-color: #000000c9;
+}
+
+header img{
+    width: 12rem;
+    max-width: 450px;
+    height: 10rem;
+    margin-left: 8%;
+}
+
+header p{
+    font-size: 1.5rem;
+    color: #fff;
+    max-width: 450px;
+}
+
+.climaBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 19%;
+    left: 10%;
+    background: #000000c9;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-clima{
+    width: 100%;
+}
+
+.city{
+    width: 80%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font: 1rem;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+}
+
+.city:focus{
+    border:1px solid #fff;
+}
+
+.climaBox-buscar{
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.climaBox-img{
+    width: 2.5rem;
+    height: 1.8rem;
+}
+
+.results-clima{
+    margin-top: 2rem;
+}
+
+h2{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.temp{
+    font: 1rem;
+    color: #ffff;
+    margin-top: 1rem;
+}
+
+.minBox,
+.umidade{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    color: #fff;
+    padding: 2% 0;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+}

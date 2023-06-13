@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Belo Clima</title>
+</head>
+<body>
+    <header>
+        <img src="../Belo_Clima/imagens/logo_clima.png" alt="logo do site: sol entre nuvens e texto Belo Clima"> 
+        <p>Saiba sempre o clima da sua cidade</p>
+    </header>
+
+
+    <main class="climaBox">
+        <section class="input-clima">
+            <input class="city" placeholder="Digite o nome da localidade">
+
+            <button class="climaBox-buscar" onclick="clickInButton()">
+                <img class="climaBox-img" alt="busca" src="https://www.svgrepo.com/show/488200/find.svg">
+            </button>
+        </section>
+        
+
+        <div class="results-clima">
+            <h2 class="cidadeAtual"> A previsão confiável do seu dia</h2>
+            <p class="temp">Temperatura</p>
+            
+            <div class="minBox">
+                <img class="img-previsao" alt="icone-info-clima" src="https://openweathermap.org/img/wn/04n.png"> 
+                <p class="texto-previsao">Seu dia</p>
+            </div>
+            <p class="umidade">Umidade do ar</p>
+        </div>
+
+    </main>
+</body>
+</html>
