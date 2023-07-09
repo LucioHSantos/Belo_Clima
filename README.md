@@ -21,8 +21,3 @@ Para visualizar o deploy deste projeto acesse
 ![](https://imgur.com/egsjeOu.png)
 
 
-## Screenshots
-
-
-[](https://i.imgur.com/egsjeOu.png)
-
