@@ -18,11 +18,11 @@ Para visualizar o deploy deste projeto acesse
 
 
 
-![](https://imgur.com/egsjeOu)
+![](https://imgur.com/egsjeOu.png)
 
 
 ## Screenshots
 
-![](https://imgur.com/egsjeOu)
 
+[](https://i.imgur.com/egsjeOu.png)
 
